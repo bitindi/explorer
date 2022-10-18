@@ -9,7 +9,7 @@ import {BrowserTracing} from "@sentry/tracing";
 
 import ReactGA from "react-ga4";
 
-ReactGA.initialize(process.env.GA_TRACKING_ID || "G-8XH7V50XK7");
+ReactGA.initialize(process.env.GA_TRACKING_ID || " ");
 
 // TODO: redirect to the new explorer domain on the domain host
 if (window.location.origin.includes("explorer.devnet.aptos.dev")) {
