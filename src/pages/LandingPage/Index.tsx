@@ -9,7 +9,7 @@ export default function LandingPage() {
   return (
     <Box>
       <Typography variant="h3" component="h3" marginBottom={4}>
-        Aptos Explorer
+        Bitindi Explorer
       </Typography>
       <NetworkInfo />
       <HeaderSearch />
