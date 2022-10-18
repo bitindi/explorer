@@ -17,13 +17,13 @@ import SvgIcon, {SvgIconProps} from "@mui/material/SvgIcon";
 import {ReactComponent as LogoFull} from "../../assets/svg/aptos_logo_full.svg";
 
 const socialLinks = [
-  {title: "Git", url: "https://github.com/aptos-labs", icon: GithubLogo},
-  {title: "Discord", url: "https://discord.gg/zTDYBEud7U", icon: DiscordLogo},
-  {title: "Twitter", url: "https://twitter.com/aptoslabs/", icon: TwitterLogo},
-  {title: "Medium", url: "https://aptoslabs.medium.com/", icon: MediumLogo},
+  {title: "Git", url: "https://github.com/bitindi", icon: GithubLogo},
+  {title: "Discord", url: "https://t.me/bitindichain", icon: DiscordLogo},
+  {title: "Twitter", url: "https://twitter.com/bitindichain/", icon: TwitterLogo},
+  {title: "Medium", url: "https://bitindi.medium.com/", icon: MediumLogo},
   {
     title: "LinkedIn",
-    url: "https://www.linkedin.com/company/aptoslabs/",
+    url: "https://www.linkedin.com/company/bitindi/",
     icon: LinkedInLogo,
   },
 ];
@@ -50,7 +50,7 @@ export default function Footer() {
           <Grid item xs="auto" sx={{mr: 2}} container justifyContent="start">
             <Link
               color="inherit"
-              href="https://aptoslabs.com/"
+              href="https://bitindi.com/"
               target="_blank"
               sx={{width: "8rem"}}
             >
@@ -64,25 +64,25 @@ export default function Footer() {
             >
               © {new Date().getFullYear()}{" "}
               <Box component="span" sx={{whiteSpace: "nowrap"}}>
-                Matonee Inc. (dba Aptos Labs)
+                Bitindi Chain.
               </Box>
               <br />
               <Link
                 color="inherit"
-                href="mailto:info@aptoslabs.com"
+                href="mailto:info@bitindi.com"
                 target="_blank"
               >
-                info@aptoslabs.com
+                info@bitindi.com
               </Link>
               <Box component="span" sx={{px: 1, display: "inline-block"}}>
                 or
               </Box>
               <Link
                 color="inherit"
-                href="mailto:press@aptoslabs.com"
+                href="mailto:press@bitindi.com"
                 target="_blank"
               >
-                press@aptoslabs.com
+                press@bitindi.com
               </Link>
             </Typography>
           </Grid>
