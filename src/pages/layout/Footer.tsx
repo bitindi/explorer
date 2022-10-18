@@ -5,7 +5,7 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 
 import {ReactComponent as GithubLogo} from "../../assets/github.svg";
-import {ReactComponent as DiscordLogo} from "../../assets/discord.svg";
+import {ReactComponent as TelegramLogo} from "../../assets/telegram.svg";
 import {ReactComponent as TwitterLogo} from "../../assets/twitter.svg";
 import {ReactComponent as MediumLogo} from "../../assets/medium.svg";
 import {ReactComponent as LinkedInLogo} from "../../assets/linkedin.svg";
@@ -18,7 +18,7 @@ import {ReactComponent as LogoFull} from "../../assets/svg/aptos_logo_full.svg";
 
 const socialLinks = [
   {title: "Git", url: "https://github.com/bitindi", icon: GithubLogo},
-  {title: "Discord", url: "https://t.me/bitindichain", icon: DiscordLogo},
+  {title: "Telegram", url: "https://t.me/bitindichain", icon: TelegramLogo},
   {title: "Twitter", url: "https://twitter.com/bitindichain/", icon: TwitterLogo},
   {title: "Medium", url: "https://bitindi.medium.com/", icon: MediumLogo},
   {
