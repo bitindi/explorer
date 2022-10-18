@@ -34,7 +34,7 @@ export default function Balance({address}: BalanceProps) {
 
   return (
     <Typography variant="body1">
-      {`Balance: ${getFormattedBalanceStr(balance)} APT`}
+      {`Balance: ${getFormattedBalanceStr(balance)} BNI`}
     </Typography>
   );
 }
