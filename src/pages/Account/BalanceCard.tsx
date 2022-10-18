@@ -40,7 +40,7 @@ export default function BalanceCard({address}: BalanceCardProps) {
     <Card height="auto">
       <Stack spacing={1.5} marginY={1}>
         <Typography fontSize={17} fontWeight={700}>
-          {`${getFormattedBalanceStr(balance)} APT`}
+          {`${getFormattedBalanceStr(balance)} BNI`}
         </Typography>
         <Stack direction="row" spacing={1} alignItems="center">
           <Typography fontSize={12} color={grey[450]}>
