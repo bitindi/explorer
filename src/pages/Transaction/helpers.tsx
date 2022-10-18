@@ -10,7 +10,7 @@ export function getLearnMoreTooltip(txnField: string): JSX.Element | null {
       return (
         <LearnMoreTooltip
           text="An accumulator root hash is the root hash of a Merkle accumulator."
-          link="https://aptos.dev/reference/glossary/#merkle-accumulator"
+          link="https://docs.bitindi.com/"
         />
       );
     case "amount":
@@ -25,7 +25,7 @@ export function getLearnMoreTooltip(txnField: string): JSX.Element | null {
       return (
         <LearnMoreTooltip
           text="Learn more about Event"
-          link="https://aptos.dev/reference/glossary/#event"
+          link="https://docs.bitindi.com/"
           linkToText
         />
       );
@@ -33,14 +33,14 @@ export function getLearnMoreTooltip(txnField: string): JSX.Element | null {
       return (
         <LearnMoreTooltip
           text="A transaction ceases to be valid after its expiration time."
-          link="https://aptos.dev/reference/glossary/#expiration-time"
+          link="https://docs.bitindi.com/"
         />
       );
     case "gas_fee":
       return (
         <LearnMoreTooltip
           text="Learn more about Gas Price"
-          link="https://aptos.dev/reference/glossary/#gas-price"
+          link="https://docs.bitindi.com/"
           linkToText
         />
       );
@@ -54,7 +54,7 @@ export function getLearnMoreTooltip(txnField: string): JSX.Element | null {
       return (
         <LearnMoreTooltip
           text="The Maximum Gas Amount of a transaction is the maximum amount of gas the sender is ready to pay for the transaction."
-          link="https://aptos.dev/reference/glossary/#maximum-gas-amount"
+          link="https://docs.bitindi.com/"
         />
       );
     case "proposer":
@@ -65,21 +65,21 @@ export function getLearnMoreTooltip(txnField: string): JSX.Element | null {
       return (
         <LearnMoreTooltip
           text="A round consists of achieving consensus on a block of transactions and their execution results."
-          link="https://aptos.dev/reference/glossary/#round"
+          link="https://docs.bitindi.com/"
         />
       );
     case "sender":
       return (
         <LearnMoreTooltip
           text="Sender is the address of the originator account for a transaction."
-          link="https://aptos.dev/reference/glossary/#sender"
+          link="https://docs.bitindi.com/"
         />
       );
     case "sequence_number":
       return (
         <LearnMoreTooltip
           text="The sequence number for an account indicates the number of transactions that have been submitted and committed on chain from that account."
-          link="https://aptos.dev/reference/glossary/#sequence-number"
+          link="https://docs.bitindi.com/"
         />
       );
     case "signature":
@@ -96,14 +96,14 @@ export function getLearnMoreTooltip(txnField: string): JSX.Element | null {
       return (
         <LearnMoreTooltip
           text="A version is also called “height” in blockchain literature."
-          link="https://aptos.dev/reference/glossary/#version"
+          link="https://docs.bitindi.com/"
         />
       );
     case "vm_status":
       return (
         <LearnMoreTooltip
           text="Learn more about VM"
-          link="https://aptos.dev/reference/glossary/#move-virtual-machine-mvm"
+          link="https://docs.bitindi.com/"
           linkToText
         />
       );
