@@ -46,7 +46,7 @@ export default function BalanceCard({address}: BalanceCardProps) {
           <Typography fontSize={12} color={grey[450]}>
             Balance
           </Typography>
-          <StyledTooltip title="This balance reflects the amount of APT tokens held in your wallet.">
+          <StyledTooltip title="This balance reflects the amount of BNI tokens held in your wallet.">
             <InfoOutlinedIcon sx={{fontSize: 15, color: grey[450]}} />
           </StyledTooltip>
         </Stack>
