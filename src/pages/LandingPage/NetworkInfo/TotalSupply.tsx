@@ -14,7 +14,7 @@ export default function TotalSupply() {
           : "-"
       }
       label="Total Supply"
-      tooltipText="Amount of APT tokens flowing through the Aptos network."
+      tooltipText="Amount of BNI tokens flowing through the Bitindi network."
     />
   );
 }
