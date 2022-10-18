@@ -1,4 +1,4 @@
-# Aptos Explorer
+# Bitindi Explorer
 
 ## How to use
 
