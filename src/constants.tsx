@@ -2,11 +2,11 @@
  * Network
  */
 export const devnetUrl =
-  process.env.APTOS_DEVNET_URL || "https://fullnode.devnet.aptoslabs.com/";
+  process.env.APTOS_DEVNET_URL || " ";
 
 export const networks = {
-  mainnet: "https://fullnode.mainnet.aptoslabs.com/",
-  testnet: "https://testnet.aptoslabs.com",
+  mainnet: " ",
+  testnet: " ",
   devnet: devnetUrl,
   local: "http://localhost:8080",
 };
