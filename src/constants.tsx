@@ -5,8 +5,8 @@ export const devnetUrl =
   process.env.APTOS_DEVNET_URL || " ";
 
 export const networks = {
-  mainnet: " ",
-  testnet: " ",
+  mainnet: "https://rpc-mainnet.bitindi.org",
+  testnet: "https://rpc-testnet.bitindi.org",
   devnet: devnetUrl,
   local: "http://localhost:8080",
 };
